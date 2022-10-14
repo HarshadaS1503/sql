@@ -1,0 +1,24 @@
+// to check version
+select @@version
+
+
+// to change sa password
+ALTER LOGIN sa ENABLE ;  
+GO  
+ALTER LOGIN sa WITH PASSWORD = '<enterStrongPasswordHere>' ;  
+GO  
+
+//Database creation
+
+two files are created when db is created
+--rows data (primary data file)
+--log file (transaction log file)
+
+//Types of  SQL
+
+--DDL : CREATE, DROP,ALTER (works on db obj), TRUNCATE( works on data)
+--DML: INSERT,UPDATE,DELETE 
+--DCL: GRANT,REVOKE
+--TCL:  COMMIT,ROLLBACK
+--DQL : SELECT
+
