@@ -22,3 +22,30 @@ two files are created when db is created
 --TCL:  COMMIT,ROLLBACK
 --DQL : SELECT
 
+// TABLES
+
+Production
+
+Product  -DONE
+ProductSubCategory -DONE
+ProductCategory  -DONE
+ 
+
+Sales
+
+SalesOrderDetail
+SalesOrderHeader  -DONE
+Customer  -DONE
+Territory  -DONE
+Country  -DONE
+
+
+HumanResources
+
+Employee  -DONE
+Department  -DONE
+
+Person
+
+Person  -DONE
+
